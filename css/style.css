@@ -1,13 +1,16 @@
+body{
+  background-color: #dee2e6;
+}
 #main {
   width: 800px;
   margin: 0 auto;
   font-family: sans-serif;
   font-size: 18px;
   color: #495057;
-  display: grid;
+   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 80px;
-  margin-top: 64pxr;
+  margin-top: 64pxr; 
 }
 
 #image {
@@ -15,9 +18,9 @@
   max-width: 100%;
   height: auto;
 }
-
+/* 
 #img-div {
-}
+} */
 
 #tribute-info {
   font-style: italic;
@@ -38,4 +41,7 @@ h1 {
 
 #peter {
   font-size: 12px;
+}
+.copy{
+  text-align: center;
 }
